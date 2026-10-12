@@ -1,0 +1,26 @@
+{
+  "name": "curso-fullstack-dio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsx watch src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleeperCoderZzZ/curso-fullstack-dio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sleeperCoderZzZ/curso-fullstack-dio/issues"
+  },
+  "homepage": "https://github.com/sleeperCoderZzZ/curso-fullstack-dio#readme",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
